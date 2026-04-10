@@ -2,22 +2,6 @@
 
 用于：记录选题、检索素材、生成文稿、优化开头、生成标题、数据复盘。
 
-## 安装方式
-
-### 方式一：直接复制到 OpenClaw workspace skills 目录
-```bash
-cp -r content-workflow ~/.openclaw/workspace/skills/
-```
-
-### 方式二：链接方式（保留数据在原位置）
-```bash
-ln -sf /你的路径/content-workflow ~/.openclaw/workspace/skills/content-workflow
-```
-
-### 方式三：打包移动到其他工具
-- 将整个 `content-workflow` 文件夹复制到目标 AI 工具的 skills 目录下
-- 具体路径请参考目标工具的文档
-
 ## 快速安装
 
 复制以下内容给 AI Agent 自动安装：
