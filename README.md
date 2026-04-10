@@ -32,7 +32,7 @@ ln -sf /你的路径/content-workflow ~/.openclaw/workspace/skills/content-workf
 
 2. 初始化：cd content-workflow && bash .content-workflow/preamble.sh
 
-3. 读取 SKILL.md，告诉我版本和可用命令
+3. 读取 SKILL.md，告诉我版本和可用命令以及使用方式
 ```
 
 ## 目录结构
