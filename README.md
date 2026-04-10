@@ -120,7 +120,7 @@ bash .content-workflow/upgrade.sh cleanup 5
 bash .content-workflow/upgrade.sh history
 ```
 
-**版本：** 2.0.0 | [CHANGELOG](CHANGELOG.md)
+**版本：** 2.1.0 | [CHANGELOG](CHANGELOG.md)
 
 ## 文风DNA
 
@@ -128,5 +128,5 @@ bash .content-workflow/upgrade.sh history
 
 ---
 
-版本：2.0.0
+版本：2.1.0
 更新日期：2026-04-10

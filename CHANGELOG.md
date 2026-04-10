@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.1.0] - 2026-04-10
+
+### Added
+- **泰哥文风DNA** - 新增 `references/泰哥文风DNA.md`，投流视频必须叠加使用
+- **文风编码系统** - 编解码手册（文风DNA.md）+ 具体编码（泰哥文风DNA.md）
+- **禁忌成交算法** - 投流视频使用AL06算法（禁忌-放大后果-权威背书-仪式动作-商品承接-行动收口）
+
+### Changed
+- **强化文风要求** - 所有内容类型必须加载文风DNA编解码手册
+- **投流视频规则** - 投流视频必须叠加泰哥文风DNA具体编码（PT01-PT15、RULE01-RULE10、CD01-CD05）
+
+---
+
 ## [2.0.0] - 2026-04-10
 
 ### Added
@@ -63,6 +76,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | 日期 | 版本 | 操作 | 结果 |
 |-----|------|------|------|
+| 2026-04-10 | 2.0.0 → 2.1.0 | 新增泰哥文风DNA | ✅ 成功 |
 | 2026-04-10 | 1.0.0 → 2.0.0 | 全面升级 | ✅ 成功 |
 
 ---
