@@ -273,7 +273,7 @@ description: |
 | 触发词 | 调用工作流 | 说明 |
 |--------|-----------|------|
 | 内容策划、选题分析、这个选题怎么样、帮我看看这个选题 | [内容策划](references/内容策划.md) | 深度探讨选题可行性 |
-| 生成文稿、写脚本、创作内容、写文案 | [生成文稿](references/生成文稿.md) | 完整的文稿生成流程 |
+| 生成文稿、写脚本、创作内容、写文案 | [生成文稿](references/生成文稿.md) | 完整的文稿生成流程（必须使用文风DNA） |
 | 内容审核、检查一下、看看有没有问题 | [内容审核](references/内容审核.md) | 多维度审核检查 |
 | 数据复盘、分析效果、为什么没爆 | [数据复盘](references/数据复盘.md) | 单条内容数据分析 |
 | 周报、这周怎么样、weekly retro | [周报复盘](references/周报复盘.md) | 周期性总结复盘 |
@@ -281,6 +281,7 @@ description: |
 | 检索素材、搜一下素材 | [检索素材](references/检索素材.md) | 素材库检索 |
 | 优化开头、前5秒、开屏 | [优化开头](references/优化开头.md) | 开头优化 |
 | 生成标题、起个标题 | [生成标题](references/生成标题.md) | 标题生成 |
+| 检查更新、更新技能、upgrade | [版本更新](references/版本更新.md) | 检查并执行系统更新 |
 
 **路由规则：**
 1. 匹配触发词 → 立即调用对应 Skill
@@ -347,8 +348,17 @@ bash .content-workflow/timeline.sh today
 # 检查当前版本
 bash .content-workflow/upgrade.sh version
 
+# 检查是否有新版本
+bash .content-workflow/update-check.sh
+
+# 执行更新
+bash .content-workflow/upgrade.sh
+
 # 查看更新日志
 bash .content-workflow/upgrade.sh changelog
+
+# 查看升级历史
+bash .content-workflow/upgrade.sh history
 
 # 创建备份
 bash .content-workflow/upgrade.sh backup
