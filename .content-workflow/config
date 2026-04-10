@@ -1,0 +1,32 @@
+# Content Workflow 用户配置文件
+# 修改此文件来自定义内容生产系统的默认行为
+
+# 内容风格偏好
+CONTENT_STYLE="practical"
+# 可选值：
+# - practical (实用主义，注重干货)
+# - emotional (情感共鸣，注重故事)
+# - professional (专业权威，注重背书)
+# - entertaining (轻松娱乐，注重趣味)
+
+# 目标平台
+TARGET_PLATFORM="douyin"
+# 可选值：douyin, xiaohongshu, kuaishou, shipinhao, bilibili
+
+# 默认视频时长（秒）
+DEFAULT_DURATION="60"
+# 可选值：15, 30, 60, 120, 180
+
+# 是否启用主动建议模式
+PROACTIVE_MODE="true"
+# 可选值：true, false
+
+# 默认内容类型
+DEFAULT_CONTENT_TYPE="口播视频"
+# 可选值：口播视频, 自然流带货, 投流视频
+
+# 常用主题标签（逗号分隔）
+DEFAULT_TAGS="国学智慧,家庭关系,个人成长"
+
+# 数据复盘周期（天）
+REVIEW_CYCLE="7"

@@ -1,0 +1,70 @@
+# Changelog - Content Workflow
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+---
+
+## [2.0.0] - 2026-04-10
+
+### Added
+- **Skill Routing 系统** - 新增技能路由，通过 `/command` 形式触发专门工作流
+- **内容策划工作流** - 6个强迫性问题深度策划选题
+- **内容审核工作流** - 4重审核（合规/数据/文案/平台）
+- **数据复盘工作流** - 表现诊断与归因分析
+- **周报复盘工作流** - 周期性生产复盘
+- **前置检查脚本** (`preamble.sh`) - 每次执行前自动检查环境
+- **学习系统** (`learnings.sh`) - 记录和检索历史经验
+- **时间线追踪** (`timeline.sh`) - 记录完整生产流程
+- **用户配置** (`config`) - 可自定义内容风格、平台偏好等
+- **更新检查系统** - 版本管理和自动更新检查
+
+### Changed
+- **移除飞书依赖** - 所有功能改为本地 Markdown 管理
+- **重构生成文稿** - 新增6个自动决策和完整脚本生成
+- **重构记录选题** - 改为本地 Markdown 格式管理
+- **优化目录结构** - 添加 `.content-workflow/` 配置目录
+
+### Removed
+- 飞书多维表格集成
+- `lark-cli` 依赖
+- 远程 API 调用
+
+---
+
+## [1.0.0] - 2026-04-01
+
+### Added
+- 初始版本发布
+- 基础工作流：记录选题、检索素材、生成文稿、优化开头、生成标题、数据复盘
+- 素材库结构：核心概念库、金句库、案例库、结构库
+- 方法论沉淀：短视频标题方法论、开头方法论、三段式方法论
+- 飞书多维表格集成
+
+---
+
+## 版本说明
+
+### 版本号规则
+- **主版本号** (X.0.0) - 重大架构变更，不兼容的修改
+- **次版本号** (0.X.0) - 新增功能，向后兼容
+- **修订号** (0.0.X) - 问题修复，向后兼容
+
+### 升级建议
+- **主版本升级** - 仔细阅读迁移指南，可能需要手动调整
+- **次版本升级** - 建议尽快升级，获取新功能
+- **修订版本** - 建议立即升级，修复已知问题
+
+---
+
+## 升级历史
+
+| 日期 | 版本 | 操作 | 结果 |
+|-----|------|------|------|
+| 2026-04-10 | 1.0.0 → 2.0.0 | 全面升级 | ✅ 成功 |
+
+---
+
+*For more information, please refer to the [README](README.md) or run `.content-workflow/upgrade.sh help`*
