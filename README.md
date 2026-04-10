@@ -18,6 +18,23 @@ ln -sf /你的路径/content-workflow ~/.openclaw/workspace/skills/content-workf
 - 将整个 `content-workflow` 文件夹复制到目标 AI 工具的 skills 目录下
 - 具体路径请参考目标工具的文档
 
+## 快速安装
+
+复制以下内容给 AI Agent 自动安装：
+
+```
+请安装 content-workflow 技能：https://github.com/amorist/content-workflow
+
+安装步骤：
+1. 下载项目：
+   - 有 git：git clone https://github.com/amorist/content-workflow.git
+   - 无 git：curl -L https://github.com/amorist/content-workflow/archive/refs/heads/main.zip -o cw.zip && unzip cw.zip && mv content-workflow-main content-workflow
+
+2. 初始化：cd content-workflow && bash .content-workflow/preamble.sh
+
+3. 读取 SKILL.md，告诉我版本和可用命令
+```
+
 ## 目录结构
 
 ```
@@ -97,8 +114,11 @@ bash .content-workflow/timeline.sh today
 # 查看当前版本
 bash .content-workflow/upgrade.sh version
 
-# 查看更新日志
-bash .content-workflow/upgrade.sh changelog
+# 检查更新
+bash .content-workflow/update-check.sh
+
+# 升级到最新版本
+bash .content-workflow/upgrade.sh
 
 # 创建备份
 bash .content-workflow/upgrade.sh backup
@@ -111,6 +131,9 @@ bash .content-workflow/upgrade.sh restore 1
 
 # 清理旧备份
 bash .content-workflow/upgrade.sh cleanup 5
+
+# 查看升级历史
+bash .content-workflow/upgrade.sh history
 ```
 
 **版本：** 2.0.0 | [CHANGELOG](CHANGELOG.md)
