@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.1.1] - 2026-04-11
+
+### Fixed
+- **文档脚本路径** - 修复文档中的脚本路径引用
+
+### Changed
+- **版本号更新** - 更新版本号至 2.1.1
+
+---
+
 ## [2.1.0] - 2026-04-10
 
 ### Added
@@ -76,6 +86,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | 日期 | 版本 | 操作 | 结果 |
 |-----|------|------|------|
+| 2026-04-11 | 2.1.0 → 2.1.1 | 修复文档脚本路径 | ✅ 成功 |
 | 2026-04-10 | 2.0.0 → 2.1.0 | 新增泰哥文风DNA | ✅ 成功 |
 | 2026-04-10 | 1.0.0 → 2.0.0 | 全面升级 | ✅ 成功 |
 

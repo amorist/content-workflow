@@ -7,7 +7,7 @@ description: |
   ## Preamble (运行前置检查)
   
   ```bash
-  bash /Users/amor/Documents/智伴同行/AI知识付费/content-workflow/.content-workflow/preamble.sh
+  bash content-workflow/.content-workflow/preamble.sh
   ```
   
   如果 `PROACTIVE_MODE` 为 `"false"`，不要主动建议工作流，只执行用户明确请求的命令。
